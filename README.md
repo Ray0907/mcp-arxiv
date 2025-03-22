@@ -47,9 +47,9 @@ Add to your Claude settings:
     "command": "uv",
     "args": [
         "--directory",
-        "ABSULUTE_PATH_PARENT",
+        "ABSOLUTE_PROJECT_PATH",
         "run",
-        "server.py"
+        "arxiv-server.py"
       ]
   }
 }

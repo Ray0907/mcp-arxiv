@@ -4,7 +4,7 @@ from mcp.server.fastmcp import FastMCP
 import requests
 from bs4 import BeautifulSoup
 
-mcp = FastMCP('Arxiv')
+mcp = FastMCP('arXiv-server')
 
 URL ='https://arxiv.org'
 @mcp.tool()
